@@ -8,6 +8,7 @@
   co = checkout
   br = branch
   cm = commit
+  df = diff
   st = status
   pu = push
   pl = pull
