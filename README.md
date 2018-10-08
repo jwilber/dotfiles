@@ -13,4 +13,4 @@ source install.sh
 
 ## Thanks to...
 * [Kenneth Kihara](http://kenkihara.com/about.html) for his [dotfile repository](https://github.com/kkihara/dotfiles) structure which I based mine off of.
-* [Mathias Bynens](https://github.com/alrra) and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles) that has a ton of useful stuff.
+* Mathias Bynens and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles) that has a ton of useful stuff.
