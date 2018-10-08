@@ -13,6 +13,7 @@ if [ -e "$HOME/.vimrc" ]; then mv "$HOME/.vimrc" "$HOME/.vimrc.bkp"; fi
 if [ -e "$HOME/.vim" ]; then mv "$HOME/.vim" "$HOME/.vim.bkp"; fi
 
 ln -s "$DIR/vim/vimrc.symlink" ~/.vimrc
+ln -s "$DIR/vim/vim.symlink/" ~/.vim
 
 # .gitconfig
 ln -s "$DIR/.gitconfig" "$HOME/.gitconfig"
