@@ -1,0 +1,46 @@
+call plug#begin('~/.vim/plugged')
+
+" Vim Plug
+call plug#begin('~/.vim/plugged')
+
+" Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" CtrlP
+Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
+
+" Color Schemes
+Plug 'flazz/vim-colorschemes'
+
+" NERD Commenter
+Plug 'scrooloose/nerdcommenter'
+
+" NERD Tree
+Plug 'scrooloose/nerdtree'
+
+" vim-ripgrep
+Plug 'jremmen/vim-ripgrep'
+
+" Surround
+Plug 'tpope/vim-surround'
+
+" Syntastic
+Plug 'vim-syntastic/syntastic'
+
+" JS Indentation
+Plug 'pangloss/vim-javascript'
+
+call plug#end()
+
+" enable backspace
+set backspace=indent,eol,start
+
+" set indentationt to two tabs
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=2
+" when indenting with '>', use 4 spaces width
+set shiftwidth=2
+" On pressing tab, insert 4 spaces
+set expandtab"

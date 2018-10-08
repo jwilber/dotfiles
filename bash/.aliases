@@ -1,0 +1,24 @@
+# cd
+alias ..="cd .."
+
+# clear
+alias cl="clear"
+
+# git
+alias g="git"
+
+# history
+alias h="history"
+
+# ls
+alias ll="ls -al"
+
+# path
+alias path='echo -e ${PATH//:/\\n}'
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
