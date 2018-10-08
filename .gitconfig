@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Jared Wilber
+  email = j.wilber92@gmail.com
+
+[alias]
+  co = checkout
+  br = branch
+  cm = comment
+  st = status
+  pu = push
+  pl = pull
+[mergetool]
+  path = vim
+[core]
+  editor = vim
