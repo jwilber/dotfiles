@@ -7,7 +7,7 @@
 [alias]
   co = checkout
   br = branch
-  cm = comment
+  cm = commit
   st = status
   pu = push
   pl = pull
