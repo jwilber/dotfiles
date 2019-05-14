@@ -1,0 +1,17 @@
+alias 'dt=cd ~/Desktop'
+alias ll='ls -trl'
+alias ..='cd ..'
+alias 'subl="/c/Program Files/Sublime Text 3/subl.exe"'
+alias 'python=winpty python'
+# git
+alias g="git"
+
+# history
+alias h="history"
+
+alias cl="clear"
+
+# Create a new directory and enter it
+function mk() {
+  mkdir -p "$@" && cd "$@"
+}
