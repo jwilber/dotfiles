@@ -2,10 +2,3 @@
 function mk() {
   mkdir -p "$@" && cd "$@"
 }
-
-# add open functionality if windows environment
-function open() {
-	# if argument != '.', open full-path to argument
-	[ "$@" = '.' ] && dir_path="." || dir_path=$(realpath "$@")
-	start $dir_path
-}
